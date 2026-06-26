@@ -97,4 +97,3 @@ This project demonstrates the use of Python and Tkinter to build a functional de
 - SQLite database integration
 - Task reminders and notifications
 - Dark mode UI
-- Drag-and-drop task management
