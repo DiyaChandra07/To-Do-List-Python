@@ -1,0 +1,25 @@
+# ✦ Get It Done ✦
+
+A simple desktop task management UI built using Python Tkinter.
+
+---
+
+##  Features
+
+- Fullscreen modern Tkinter UI
+- Header with date, title, and status text
+- Scrollable grid layout for tasks
+- Card-based task display system
+- Clean minimalist design
+
+---
+
+##  Tech Stack
+
+- Python 3.x
+- Tkinter (GUI)
+
+---
+
+##  Preview
+
