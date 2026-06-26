@@ -1,25 +1,100 @@
-# ✦ Get It Done ✦
+# Get It Done — Task Manager (Tkinter)
 
-A simple desktop task management UI built using Python Tkinter.
-
----
-
-##  Features
-
-- Fullscreen modern Tkinter UI
-- Header with date, title, and status text
-- Scrollable grid layout for tasks
-- Card-based task display system
-- Clean minimalist design
+## Abstract
+Get It Done is a desktop-based task management application built using Python and Tkinter. It allows users to create, organize, and manage tasks with priority levels while storing data locally for persistence. The application uses a scrollable grid-based interface with card-based task display.
 
 ---
 
-##  Tech Stack
+## Introduction
+Task management is essential for productivity and organization. This project provides a lightweight offline solution for managing daily tasks using a simple graphical interface built with Tkinter. It focuses on usability, simplicity, and data persistence.
 
+---
+
+## Problem Statement and Design
+
+### Problem Statement
+Existing simple task tools often lack:
+- Persistent storage
+- Priority-based organization
+- Clean UI structure
+- Offline functionality
+
+### Objective
+To build a desktop task manager that:
+- Allows users to add and delete tasks
+- Supports priority-based categorization
+- Stores data locally
+- Displays tasks in a structured UI
+
+### Design
+The application is divided into:
+- Header section (date, title, menu)
+- Main scrollable task grid
+- Popup window for task input
+
+Each task is displayed as a card containing:
+- Title
+- Notes
+- Priority level (High / Medium / Low)
+
+---
+
+## Methodology
+
+### Workflow
+1. User adds a task via popup
+2. Task is stored in a list
+3. Task is saved in a local file (`tasks.txt`)
+4. UI is refreshed dynamically
+
+### Functional Modules
+- Task creation using popup window
+- Dynamic task rendering in grid layout
+- Task deletion with update
+- Priority-based sorting
+- File-based persistence
+
+---
+
+## Tools and Technologies
 - Python 3.x
-- Tkinter (GUI)
+- Tkinter (GUI framework)
+- datetime module
+- File handling (TXT storage)
 
 ---
 
-##  Preview
+## Project Structure
+Get-It-Done/
+│── main.py
+│── tasks.txt
+│── README.md
 
+---
+
+## Features
+- Full-screen desktop application
+- Scrollable task dashboard
+- Priority-based color coding
+- Add and delete tasks
+- Persistent storage using file system
+- Clean and responsive UI
+
+---
+
+## Results
+The application successfully manages tasks with dynamic UI updates and persistent storage. It provides an organized and user-friendly interface for daily task tracking.
+
+---
+
+## Conclusion
+This project demonstrates the use of Python and Tkinter to build a functional desktop application. It integrates GUI design, event handling, and file storage into a complete task management system.
+
+---
+
+## Future Scope
+- Search and filter functionality
+- SQLite database integration
+- Task reminders and notifications
+- Dark mode UI
+- Drag-and-drop task management
